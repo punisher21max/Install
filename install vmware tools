@@ -1,0 +1,16 @@
+install vmware tools
+
+step 1 : mount vitual CD
+from top menu bar select : VM > install VMware tools ----> virtual CD mounted
+check among floppy and CD's - 
+You'll see : VMware tools  : open it - copy tar.gz file to desktop - extract it on desktop
+
+now you have : vmware-tools-distrib , on your desktop
+step2 : 
+cd Desktop/vmware-tools-distrib
+ 
+sudo ./vmware-install.pl -d
+
+Enter your Ubuntu password.
+
+Restart the Ubuntu virtual machine after the VMware Tools installation completes
